@@ -24,6 +24,9 @@
   font-size: 25px;
   font-weight: 300;
 }
+
+
+
 @media(max-width: 767px) {
   .testimonial-card3-icon {
     height: 48px;

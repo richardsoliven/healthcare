@@ -52,11 +52,23 @@
   background-color: var(--dl-color-gray-white);
 }
 
+.blog-post-card1-root-class-name5 {
+  background-color: var(--dl-color-gray-white);
+}
+.blog-post-card1-root-class-name6 {
+  background-color: var(--dl-color-gray-white);
+}
+.blog-post-card1-root-class-name7 {
+  background-color: var(--dl-color-gray-white);
+}
 @media(max-width: 1200px) {
   .blog-post-card1-blog-post-card {
     height: auto;
   }
   .blog-post-card1-root-class-name3 {
+    height: 50%;
+  }
+  .blog-post-card1-root-class-name5 {
     height: 50%;
   }
 }

@@ -4,50 +4,60 @@
   align-items: center;
   flex-direction: row;
 }
+.navigation-links-navlink {
+  color: var(--dl-color-primary-3c90f7);
+  font-size: 15px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  color: var(--dl-color-primary-3c90f7);
+  font-size: 15px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-left: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  color: var(--dl-color-primary-3c90f7);
+  font-size: 15px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-left: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation-links-navlink3 {
+  color: var(--dl-color-primary-3c90f7);
+  font-size: 15px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-left: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .navigation-links-text {
   color: var(--dl-color-primary-3c90f7);
   font-size: 15px;
   font-style: normal;
   font-family: Montserrat;
   font-weight: 600;
-  text-transform: uppercase;
-}
-.navigation-links-text1 {
-  color: var(--dl-color-primary-3c90f7);
-  font-size: 15px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 600;
   margin-left: 32px;
   text-transform: uppercase;
 }
-.navigation-links-text2 {
-  color: var(--dl-color-primary-3c90f7);
-  font-size: 15px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 600;
-  margin-left: 32px;
-  text-transform: uppercase;
-}
-.navigation-links-text3 {
-  color: var(--dl-color-primary-3c90f7);
-  font-size: 15px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 600;
-  margin-left: 32px;
-  text-transform: uppercase;
-}
-.navigation-links-text4 {
-  color: var(--dl-color-primary-3c90f7);
-  font-size: 15px;
-  font-style: normal;
-  font-family: Montserrat;
-  font-weight: 600;
-  margin-left: 32px;
-  text-transform: uppercase;
-}
+
+
+
+
+
+
 
 
 
@@ -57,48 +67,48 @@
 
 
 @media(max-width: 1600px) {
+  .navigation-links-navlink {
+    font-size: 16px;
+  }
+  .navigation-links-navlink1 {
+    font-size: 16px;
+  }
+  .navigation-links-navlink2 {
+    font-size: 16px;
+  }
+  .navigation-links-navlink3 {
+    font-size: 16px;
+  }
   .navigation-links-text {
-    font-size: 16px;
-  }
-  .navigation-links-text1 {
-    font-size: 16px;
-  }
-  .navigation-links-text2 {
-    font-size: 16px;
-  }
-  .navigation-links-text3 {
-    font-size: 16px;
-  }
-  .navigation-links-text4 {
     font-size: 16px;
   }
 }
 @media(max-width: 1200px) {
+  .navigation-links-navlink {
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .navigation-links-navlink1 {
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .navigation-links-navlink2 {
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .navigation-links-navlink3 {
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
   .navigation-links-text {
-    font-style: normal;
-    font-family: Montserrat;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .navigation-links-text1 {
-    font-style: normal;
-    font-family: Montserrat;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .navigation-links-text2 {
-    font-style: normal;
-    font-family: Montserrat;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .navigation-links-text3 {
-    font-style: normal;
-    font-family: Montserrat;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .navigation-links-text4 {
     font-style: normal;
     font-family: Montserrat;
     font-weight: 600;
@@ -110,22 +120,22 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .navigation-links-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -157,6 +167,9 @@
   font-size: 25px;
   font-weight: 300;
 }
+
+
+
 @media(max-width: 767px) {
   .testimonial-card3-icon {
     height: 48px;
@@ -223,11 +236,23 @@
   background-color: var(--dl-color-gray-white);
 }
 
+.blog-post-card1-root-class-name5 {
+  background-color: var(--dl-color-gray-white);
+}
+.blog-post-card1-root-class-name6 {
+  background-color: var(--dl-color-gray-white);
+}
+.blog-post-card1-root-class-name7 {
+  background-color: var(--dl-color-gray-white);
+}
 @media(max-width: 1200px) {
   .blog-post-card1-blog-post-card {
     height: auto;
   }
   .blog-post-card1-root-class-name3 {
+    height: 50%;
+  }
+  .blog-post-card1-root-class-name5 {
     height: 50%;
   }
 }
@@ -1659,6 +1684,7 @@
     padding: var(--dl-space-space-fiveunits);
   }
   .home-steps {
+    height: auto;
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
